@@ -6,6 +6,7 @@
  * main - prints the last digit of the random
  * number stored in the variable n
  *
+ *
  * Return : Always 0 (success)
  */
 int main(void)
