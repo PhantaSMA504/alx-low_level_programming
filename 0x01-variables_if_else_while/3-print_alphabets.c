@@ -8,22 +8,22 @@
  * Return: Always 0 (success)
  */
 
-int main (void)
+int main(void)
 
 {
 	char XX;
-       	char xx;
+	char xx;
 
-	for (XX ='a'; XX <='z'; XX++)
+	for (XX = 'a'; XX <= 'z'; XX++)
 	{
 		putchar(XX);
-	}	
+	}
 
-	for (xx ='A'; xx <='Z'; xx++)
+	for (xx = 'A'; xx <= 'Z'; xx++)
 	{
 		putchar(xx);
 	}
-
+	
 	putchar('\n');
 
 	return (0);
