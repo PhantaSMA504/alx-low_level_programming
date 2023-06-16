@@ -11,11 +11,12 @@ int main(void)
 	char XX;
 	XX ='a';
 
-	do 
+	while (XX != 'z') 
 	{
 		putchar(XX);
+		XX++;
 	}
-	while (XX !='z');
+	
 		
 	return (0);
 }
