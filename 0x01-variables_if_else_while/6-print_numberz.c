@@ -10,17 +10,17 @@
 int main(void)
 
 {
-	int x;
+	int a;
 
-	for (x = 0; x < 10; x++)
+	for (a = 0; a < 10; a++)
 
 	{
 
-		putchar(x);
+		putchar(a);
 
 	}
 
-		putchar('\x');
+		putchar('\a');
 
 	return (0);
 }
