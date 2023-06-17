@@ -12,14 +12,22 @@ int main(void)
 	int n;
 	int N;
 
-	for (n = 48; n <= 58; n++)
+	for (n = 48; n < 58; n++)
+
 	{
+
 		putchar(n);
+
 	}
+
 	for (N = 'a'; N <= 'f'; N++)
+
 	{
+
 	putchar(N);
+
 	}
+
 	putchar('\n');
 
 	return (0);
