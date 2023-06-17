@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main prints numbers of base 16 in lowercase
- * followed by new line 
+ * main - prints numbers of base 16 in lowercase
+ * followed by new line
  *
  * Return: Always 0 (success)
  */
@@ -18,7 +18,7 @@ int main(void)
 	}
 	for (N = 'a'; N <= 'f'; N++)
 	{
-		putchar(N);
+	putchar(N);
 	}
 	putchar('\n');
 
