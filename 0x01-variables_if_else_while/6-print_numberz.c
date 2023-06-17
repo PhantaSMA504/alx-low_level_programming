@@ -20,7 +20,7 @@ int main(void)
 
 	}
 
-		putchar('\n');
+		putchar('\x');
 
 	return (0);
 }
