@@ -10,17 +10,17 @@
 
 int main(void)
 {
-	char XX;
-
-	XX = 'a';
+	char XX = 'a';
 
 	while (XX <= 'z')
 	{
 		if (XX != 'q' && XX != 'e')
 		{
 			putchar(XX);
-			XX++;
 		}
+		XX++;
 	}
+	putchar('\n');
+		
 	return (0);
 }
