@@ -2,12 +2,12 @@
 
 /**
  * main - prints the lowercase alphabet in reverse
- * followed by newline 
+ * followed by newline
  *
  * Return: Always 0 (success)
  */
 
-int main (void)
+int main(void)
 {
 	int n;
 
@@ -15,7 +15,7 @@ int main (void)
 	{
 		putchar(n);
 	}
-	putchar('n');
+	putchar('\n');
 
 	return (0);
 }
