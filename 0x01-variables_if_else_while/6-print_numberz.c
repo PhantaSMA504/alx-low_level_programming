@@ -9,18 +9,18 @@
 
 int main(void)
 
-{
-	int a;
+int n;
 
-	for (a = 0; a < 10; a++)
+{
+	for (n = 48; n < 58; n++)
 
 	{
 
-		putchar(a);
+		putchar(n);
 
 	}
 
-		putchar('\a');
+		putchar('\n');
 
 	return (0);
 }
