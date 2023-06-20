@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * void print_alphabet_x10 - prints ten times the alphabet
- * followed by newline
+ * print_alphabet_x10 - make alphabet x10
+ * followe
  *
- * Return: Always 0 (success)
+ * Return: void
  */
 
 void print_alphabet_x10(void)
@@ -20,4 +20,5 @@ void print_alphabet_x10(void)
 		}
 		_putchar(a);
 	}
+	_putchar('\n');
 }
