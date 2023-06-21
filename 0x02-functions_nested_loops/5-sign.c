@@ -8,7 +8,7 @@
  * returns -1  and prints - if n is less than 0
  */
 
-int print_sign(int n);
+int print_sign(int n)
 {
 	int n;
 
