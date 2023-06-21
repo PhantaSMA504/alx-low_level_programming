@@ -15,10 +15,6 @@ int _abs(int n)
 		
 		abs1 = n * -1;
 		return (abs1);
-	}
-	else
-	{
-		return (n);
-	}
-	return (0);
+	}	
+	return (n);
 }
