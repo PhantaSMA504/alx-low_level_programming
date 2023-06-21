@@ -2,9 +2,10 @@
 #include <ctype.h>
 
 /**
- *_islower - check for lowercase character
- *@c - character to be checked
- * Return -
+ * _islower - check for lowercase character
+ * @c - character to be checked
+ *
+ * Return - 1 for lowercase character
  * 0 if otherwise
  */
 
