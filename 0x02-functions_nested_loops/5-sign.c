@@ -1,33 +1,29 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * print_sign - prints the sign of a number
+ * @n - the character to be checked
  *
- * Return: Always 0.
+ * Return: 1 for positive number, -1 for negative number or zero for anything else
  */
 int print_sign(int n)
 
 {
 
-    n = print_sign(98);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(n + '0');
-    _putchar('\n');
-    n = print_sign(0);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(n + '0');
-    _putchar('\n');
-    n = print_sign(0xff);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(n + '0');
-    _putchar('\n');
-    n = print_sign(-1);
-    _putchar(',');
-    _putchar(' ');
-    _putchar(n + '0');
-    _putchar('\n');
+	if (n > 0)
+	{
+		putchar(43);
+		return (1);
+	}
+	else if (n < 0);
+	{
+		putchar(45);
+		return (-1);
+	}
+	else 
+	{
+		putchar(48);
+		return (0);
+	}
     return (0);
 }
