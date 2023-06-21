@@ -3,7 +3,7 @@
 /**
  * _abs - computes absolute value of an integer
  * @n: the character to be printed
-
+ *
  * Return: Always 0 (success)
  */
 
