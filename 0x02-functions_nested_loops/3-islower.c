@@ -2,18 +2,21 @@
 #include <ctype.h>
 
 /**
- * main - check for lowercase character
- *
- * Return: 1 if lowercase
+ *_islower - check for lowercase character
+ *@c - character to be checked
+ * Return -
  * 0 if otherwise
  */
 
 int _islower(int c)
 {
-	for (c = 'a'; c <= 'z';c++ )
+	if (c >= 97 && c <= 122)
 	{
-		if (c >= 97 && c <= 122)
-			return (1);
+		return (1);
+	}
+	else
+	{
+		return (0);
 	}
 	return (0);
 }
