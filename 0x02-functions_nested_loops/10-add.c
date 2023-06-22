@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * int add - adds two integers and returns the result
- * @n: character to be computed
+ * add - adds two integers and returns the result
+ * @a: character to be computed
+ * @b: character to be computed
  *
  * Return: Always 0 (success)
  */
