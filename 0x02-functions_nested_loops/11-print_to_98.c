@@ -4,7 +4,7 @@
 /**
  * print_to_98 - rints all natural numbers from n to 98
  * followed by a new line
- * @n: number to start printing from 
+ * @n: number to start printing from
  *
  * Return: void
  */
