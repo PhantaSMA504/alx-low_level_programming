@@ -10,11 +10,11 @@
 void print_numbers(void)
 
 {
-	int a;
+	int a = 0;
 
-	for (a = 48; a <= 57; a++)
+	for (; a <= 9; a++)
 	{
-		if (a = 50 && a = 52)
+		if (a == 2 || a == 4)
 		{
 			continue;
 		}
