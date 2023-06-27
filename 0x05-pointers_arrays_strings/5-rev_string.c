@@ -10,6 +10,7 @@
 
 void rev_string(char *s)
 {
+	int i;
 	int length = strlen(s);
 	int middle = length / 2; 
 	char temp;
