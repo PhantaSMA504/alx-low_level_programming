@@ -12,6 +12,7 @@ void reset_to_98(int *n)
 
 	x = 400;
 	n = &x;
+
 	*n = 98;
 
 }
