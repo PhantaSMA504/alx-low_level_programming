@@ -1,35 +1,30 @@
 /**
- * _strncat - concatenates two strings
- * @dest: string to be added to
- * @src: string to be added
- * @n: bytes of @src
+ * _strncat - a function that concatenates two strings.
  *
- * Return: dest
+ * @dest: pointer to destination input
+ * @src: pointer to source input
+ * @n: most number of bytes from @src
+ *
+ * Return: @dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
-	int i;
+	int c, i;
+
+	c = 0;
+
+	/*find size of dest array*/
+	while (dest[c])
+		c++;
 
 	/**
-	 * iterate through src array 
-	 * where if there is no null byte
-	 * among the first n bytes
-	 * the string placed in n will not be terminated
+	 * src does not need to be null terminated
+	 * if it contains n or more bytes
 	 */
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[c + i] = src[i];
+	/*null terminate dest*/
+	dest[c + i] = '\0';
 
-	for (i = 0 ; i < n && src[i] != '\0' ; i++)
-		dest[i] = src[i];
-	/**
-	 * if the length of src is more than n
-	 * write additional n bytes to dest
-	 * to ensure a total of n bytesi is written
-	 */
-
-	while (i < n)
-	{
-		dest[i] = '\0';
-		i++;
-	}
 	return (dest);
 }
