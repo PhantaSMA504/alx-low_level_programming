@@ -12,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 	src[] = "world";
 
 	strncat( dest, src, 20);
-	_putchar( dest );
+	_putchar(dest);
 
 	return (0);
 }
