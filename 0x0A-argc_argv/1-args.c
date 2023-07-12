@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints number of arguements
+ * main - prints number of arguments
  * @argc: argument count
  * @argv: argument vector
- * Return: Always 0 (success)
+ * Return: 0 - (success)
  */
 
 int main(int argc, char *argv[] __attribute__((unused)))
